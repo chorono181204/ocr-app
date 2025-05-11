@@ -33,7 +33,8 @@ npm install
 
 ```bash
 cd server
-python app.py
+uvicorn app:app --reload
+
 ```
 
 ### Frontend
